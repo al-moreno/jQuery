@@ -8,7 +8,7 @@
 
 
 ## Description
-Documentation intended for referenc of jQuery methods and syntax as they compare to vanilla JS
+Documentation intended for reference of jQuery methods and syntax as they compare to vanilla JS
 
 ## Deployment: 
 
