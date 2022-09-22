@@ -57,21 +57,68 @@ $('button').click(function(){
 //   console.log(event.key);
 // });
 
-$(document).keypress(function(event){
-    console.log(event.key);
-});
-$(document).keypress(function(event){
-    $('h1').text(event.key);
-});
+// $(document).keypress(function(event){
+//     console.log(event.key);
+// });
+// $(document).keypress(function(event){
+//     $('h1').text(event.key);
+// });
 //or
-$(document).on('click', function (){
-    $('h1').css('color', 'purple');
-});
+// $(document).on('click', function (){
+//     $('h1').css('color', 'purple');
+// });
 
 // add elements on the fly. You also have options of .after, .prepend, .append. Worth noting prepend and append add the content within the element indicated. 
-$('h1').before('<button>New Button</button>');
+// $('h1').before('<button>New Button</button>');
 
 //remove all of the indicated element with:
-$('button').remove();
+// $('button').remove();
+
+//     -----     Animations with jQuery     -----
+
+//to hide an element
+// $('button').on('click', function (){
+//     $('h1').hide();
+// })
+
+//to show the element then 
+// $('button').on('click', function (){
+//     $('h1').show();
+// })
 
 
+
+//we can toggle display of element with
+// $('button').on('click', function (){
+//     $('h1').toggle();
+// })
+
+//we can fade in or out with the following
+// $('button').on('click', function(){
+//     $('h1').fadeOut();
+// });
+
+// $('button').on('click', function (){
+//     $('h1').fadeIn();
+// });
+ 
+//or
+
+// $('button').on('click',function(){
+//     $('h1').fadeToggle();
+// });
+
+// to slide up and down
+// $('button').on('click', function(){
+//     $('h1').slideToggle();
+// })
+
+//to change css settings. Worth noting in animate method, you can only manipulate css properties that have a numeric value
+
+// $('button').on('click', function(){
+//     $('h1').animate({
+//         opacity: 0.5
+//     });
+// });
+
+//
