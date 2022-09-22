@@ -8,16 +8,15 @@
 
 
 ## Description
- Pending
-
+Documentation intended for referenc of jQuery methods and syntax as they compare to vanilla JS
 
 ## Deployment: 
 
 [GitHub] Repo: https://github.com/al-moreno/jQuery
 
-LiveServer:  pending
+<!-- LiveServer:  pending -->
 
-![picture](image.png) pending
+<!-- ![picture](image.png) pending -->
 
 
 ## Installation:
